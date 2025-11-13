@@ -1,4 +1,5 @@
 import { useState } from "react";
+import kduLogo from "@/assets/kdu-logo.jpg";
 
 interface HeaderProps {
   onDonateClick: () => void;
@@ -19,7 +20,9 @@ export const Header = ({ onDonateClick }: HeaderProps) => {
     <header className="fixed top-0 w-full z-50 bg-kdu-gradient shadow-lg">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="text-white text-2xl font-bold">KDU Florida Inc</div>
+          <div className="flex items-center">
+            <img src={kduLogo} alt="KDU Florida Logo" className="h-12 sm:h-16 w-auto" />
+          </div>
           
           {/* Desktop Navigation */}
           <ul className="hidden md:flex gap-8 text-white">
