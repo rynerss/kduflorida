@@ -38,7 +38,7 @@ const Index = () => {
       description: "Join us for our regular monthly meetings held on the first Sunday of each month. Video conference details are provided to all members in advance of each meeting.",
     },
     {
-      date: "Friday, December 5, 2025 at 6:30pm",
+      date: "Friday, December 5, 2025 at 7:00pm",
       title: "Promoting and Celebrating Kriodom",
       description: "An evening of documentaries, Krio parables, and raffle. Join us as we celebrate and promote our rich Krio heritage and culture.",
     },
